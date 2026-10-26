@@ -1,0 +1,17 @@
+{
+  "name": "url-shortener-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сервис сокращения URL на Node.js, Express и NeDB",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js"
+  },
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "dependencies": {
+    "@seald-io/nedb": "^4.1.2",
+    "express": "^5.1.0"
+  }
+}
